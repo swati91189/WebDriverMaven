@@ -31,7 +31,7 @@ public class LoginTest {
 		driver.findElement(By.id("ap_email")).sendKeys("918448602082");
 		driver.findElement(By.id("continue")).click();
 		driver.findElement(By.id("ap_password")).sendKeys("@swati*91189#");
-		driver.findElement(By.id("signInSubmit")).click();
+		driver.findElement(By.id("sInSubmit")).click();
 		Thread.sleep(5000);
 		
 	/*
